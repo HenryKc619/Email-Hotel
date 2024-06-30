@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #cccccc;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 100%;
+            height: 80px;
+        }
+        .navigation {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 10px 0;
+        }
+        .navigation a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 14px;
+        }
+        .hero {
+            text-align: center;
+            padding: 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .home-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .home-content h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .home-content p {
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #555555;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8107a0;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .content {
+            padding: 20px;
+            vertical-align: top;
+        }
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            margin-bottom: 10px;
+        }
+        .services {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .services td {
+            width: 33.33%;
+            padding: 10px;
+        }
+        .services img {
+            max-width: 50px;
+            margin-bottom: 10px;
+            border: 1px solid #70098a;
+        }
+        .content-overview {
+            padding: 20px;
+        }
+        .content-overview img {
+            height: 50px;
+            width: 50px;
+        }
+        .content-overview p {
+            margin-bottom: 10px;
+        }
+        .overview-box {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            background: #000;
+            color: #fff;
+        }
+        .overview-box td {
+            width: 25%;
+            padding: 10px;
+            text-align: center;
+        }
+        .overview-box img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .clients {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        @media only screen and (max-width: 600px) {
+          
+        .header img {
+            max-width: 100%;
+            height: 100px;
+        }
+        .content {
+                display: block;
+                width: 100% !important;
+                box-sizing: border-box;
+            }
+            .content table {
+                width: 100%;
+            }
+            .content img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="container" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="header" colspan="2">
+                <img src="images/logo.png" alt="MilkWash Logo">
+            </td>
+        </tr>
+        <tr>
+            <td class="navigation" colspan="2">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Contact</a>
+            </td>
+        </tr>
+        <tr id="home">
+            <td class="hero" colspan="2">
+                <img src="images/home.jpg" alt="Cleaning Lady">
+            </td>
+        </tr>
+        <tr>
+            <td class="home-content" colspan="2">
+                <h1>Let us take care of the cleaning</h1>
+                <p>Lorem ipsum dolor sit amet, esse aliquid liberavisse eos ea</p>
+                <a href="#" class="button">REQUEST A QUOTE</a>
+            </td>
+        </tr>
+        
+        <tr id="about">
+            <td class="header" colspan="2">
+                <h1>ABOUT US</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="content" style="width: 50%; padding: 10px; box-sizing: border-box;">
+                <table>
+                    <tr>
+                        <td style="width: 50px; height: 50px;">
+                            <img src="images/wifi.png" alt="Professional Staffs" height="50" width="50" style="display: block; width: 100%; height: auto;">
+                        </td>
+                        <td>
+                            <p style="margin-left:15px">Professional Staffs</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50px; height: 50px;">
+                            <img src="images/bedroom.png" alt="First Class Service" height="50" width="50" style="display: block; width: 100%; height: auto;">
+                        </td>
+                        <td>
+                            <p style="margin-left:15px">First Class Service</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50px; height: 50px;">
+                            <img src="images/bathtub.png" alt="Verified and Secure" height="50" width="50" style="display: block; width: 100%; height: auto;">
+                        </td>
+                        <td>
+                            <p style="margin-left:15px">Verified and Secure</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50px; height: 50px;">
+                            <img src="images/chef.png" alt="Quality Cleaning Tools" height="50" width="50" style="display: block; width: 100%; height: auto;">
+                        </td>
+                        <td>
+                            <p style="margin-left:15px">Quality Cleaning Tools</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="content" style="width: 50%; padding: 10px; box-sizing: border-box;">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/relax.jpg" alt="Person Cleaning" style="width: 100%; max-width: 100%; height: auto; display: block;">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr id="service">
+            <td class="content-overview" colspan="2">
+                <table class="overview-box">
+                    <tr>
+                        <td>
+                            <img src="images/wifi.png" alt="Icon 1">
+                            <p>Icon 1 Text</p>
+                        </td>
+                        <td>
+                            <img src="images/bedroom.png" alt="Icon 2">
+                            <p>Icon 2 Text</p>
+                        </td>
+                        <td>
+                            <img src="images/bathtub.png" alt="Icon 3">
+                            <p>Icon 3 Text</p>
+                        </td>
+                        <td>
+                            <img src="images/chef.png" alt="Icon 4">
+                            <p>Icon 4 Text</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="clients" colspan="2">
+                <h2>Happy Clients</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum."</p>
+                <p>- John Doe</p>
+            </td>
+        </tr>
+        <tr id="contact">
+            <td class="footer" colspan="2">
+                <p>Follow Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="2">
+                <p>© 2023 Company Name. All rights reserved.</p>
+                <p>1234 Street Address, City, State, 12345</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
